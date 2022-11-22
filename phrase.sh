@@ -3,6 +3,11 @@
 # Create a function  that  repeats a phrase "N" times.
 # The function  should be called "phrase"  and should accept  two arguments.
 
+# if the user does not enter any arguments , print the usage
+if [ "$1" == "-h" ]; then
+    echo "Usage: ./phrase.sh -c <number> -p <phrase to print> "
+    exit 0
+fi
 
 phrase_generator() {
     # 1 = phrase
