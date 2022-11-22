@@ -3,6 +3,17 @@
 # Create a function  that  repeats a phrase "N" times.
 # The function  should be called "phrase"  and should accept  two arguments.
 
+if [ "$#" == 0 ]; then
+    echo "Usage: $0 -c <number> -p <phrase to print> "
+    exit 1
+fi
+
+
+if [ "$#" -ne 4 ]; then
+    echo "Usage: $0 -c <number> -p <phrase to print> "
+    exit 1
+fi
+
 # if the user does not enter any arguments , print the usage
 if [ "$1" == "-h" ]; then
     echo "Usage: ./phrase.sh -c <number> -p <phrase to print> "
