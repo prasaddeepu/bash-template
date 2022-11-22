@@ -20,7 +20,9 @@
 				"rogalmic.bash-debug",
 				"shakram02.bash-beautify",
 				"GitHub.copilot-labs",
-				"GitHub.copilot-nightly"
+				"GitHub.copilot-nightly",
+				"technosophos.vscode-make",
+				"timonwong.shellcheck"
 			]
 		}
 	},
